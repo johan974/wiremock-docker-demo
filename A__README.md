@@ -11,7 +11,9 @@
 ## Running in a Kubernetes environment
 - Build docker image: $ docker-build.bat
 - Start in Kubernetes environment
-  - 
+  - kubectl apply -f wiremockdemo-deployment.yaml
+  - kubectl apply -f wiremockdemo-service.yaml  
+  
 - Browse further results:
   - http://localhost:9200/__admin/mappings
   - http://localhost:9200/__admin/files
