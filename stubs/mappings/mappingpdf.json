@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/fileserver/samplepdf"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sample-pdf.pdf",
+    "headers": {
+      "Content-Type": "application/pdf",
+      "Content-Disposition": "attachment;filename=\"file.pdf\""
+    }
+  }
+}

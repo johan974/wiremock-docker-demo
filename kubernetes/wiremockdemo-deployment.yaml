@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wiremockdemo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wiremockdemo
+  template:
+    metadata:
+      labels:
+        app: wiremockdemo
+    spec:
+      containers:
+        - name: wiremockdemo
+          image: solvedshared/wiremockdemo:development
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

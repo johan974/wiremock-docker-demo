@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/first"
+  },
+  "response": {
+    "status": 200,
+    "body": "Hello, Sourcelabs!",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}

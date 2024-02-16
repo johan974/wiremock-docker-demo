@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/fileserver/samplezip"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sample-zip.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Disposition": "attachment;filename=\"file.zip\""
+    }
+  }
+}
